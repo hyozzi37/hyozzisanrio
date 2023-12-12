@@ -1,0 +1,101 @@
+header{border-bottom: 1px solid #dddddd;}
+
+body {
+    width: 1920px;
+    background-color: rgb(142, 216, 248);
+}
+
+.inner {
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(142, 216, 248);
+}
+
+.title {
+    margin: 100px auto 0;
+}
+
+.inner .title h2 {
+    padding: 117px 0 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.inner .title ul {
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inner .title ul li {
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 66px;
+    border: 1px solid #222;
+    border-radius: 35px;
+}
+
+.inner .title ul li a {
+    display: block;
+    width: 224px;
+    height: 66px;
+}
+
+.inner .title ul li:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+
+.place_tb {
+    height: 520px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.place_tb table {
+    width: 1100px;
+    margin: auto;
+
+}
+
+.place_tb th {
+    width: 218px;
+    height: 114px;
+    line-height: 114px;
+}
+
+.place_tb th:nth-child(4) {
+    width: 286px;
+}
+
+tbody tr:first-child{background-color: #fafafa;}
+
+.place_tb tbody td {
+    text-align: center;
+    width: 218px;
+    height: 120px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.place_tb tbody td a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.place_tb tbody td:nth-child(5) {
+    background: url(../images/shop_go.png) no-repeat center;
+}
+
+.bottom{height: 335px;
+    margin-top: 50px;
+background: url(../images/bg_shop.png) no-repeat;}
